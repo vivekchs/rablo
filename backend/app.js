@@ -24,6 +24,8 @@ app.post('/add', async (req, resp) => {
     resp.send(ans);
 })
 
+console.log("hello")
+
 // Assuming you have the necessary imports and server setup in place
 
 app.post('/signup', async (req, res) => {
